@@ -48,6 +48,7 @@ try {
     viewport: { width: 1440, height: 1000 },
     deviceScaleFactor: 1,
   });
+  page.setDefaultTimeout(30000);
   const errors = [];
   page.on("pageerror", (e) => errors.push(e.message));
   page.on("response", (r) => {

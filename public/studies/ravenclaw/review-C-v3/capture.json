@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-10-01T16:09:33.785Z",
+  "errors": [],
+  "records": [
+    {
+      "ready": true,
+      "model": "modely",
+      "wrap": "raven-celestial-v3",
+      "wrapMeshes": 9,
+      "width": 1024,
+      "bytes": 411996,
+      "uvChannel": 1,
+      "pngFile": "/wraps/modely/Raven_Celestial_v3.png",
+      "pngSha256": "e5af0696d449056f34d1b5d36e3ca20af9a8d15d1c8da97ffa0b1ca1baba4332",
+      "views": {
+        "front": {
+          "file": "modely-raven-celestial-v3-front.png",
+          "sha256": "57d4b24843325c1ca3212c71431b51dd9f22a65816d5804f9b68c85351b2d1de"
+        },
+        "rear": {
+          "file": "modely-raven-celestial-v3-rear.png",
+          "sha256": "51abeefad90ef9c0313919795af375cd981a0895c0d2ea1992d456c77be3925b"
+        },
+        "left": {
+          "file": "modely-raven-celestial-v3-left.png",
+          "sha256": "eb0c7cb8782779d7664acb8af519991162767429c065924ee93cdbe5fca23e7d"
+        },
+        "right": {
+          "file": "modely-raven-celestial-v3-right.png",
+          "sha256": "b073a87a724d67b2a36a55f9877d036150773f85a99d20bf928ede3505dae97f"
+        },
+        "top": {
+          "file": "modely-raven-celestial-v3-top.png",
+          "sha256": "811b645e9ae7ab854841a5312a1600ccb20b276167152adb9dbb3be56c6690bf"
+        }
+      },
+      "visualReview": "pending",
+      "inCarVerified": false
+    }
+  ]
+}

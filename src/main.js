@@ -208,6 +208,8 @@ async function start() {
       $("model").appendChild(o);
     }
     viewer = createViewer($("viewer"));
+    window.studioProbe = (x, y) =>
+      window.studioState?.ready ? viewer.surfaceAt(x, y) : null;
     await selectModel(query.get("model") || models[0].id);
   } catch (e) {
     fail(e);

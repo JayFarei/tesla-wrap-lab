@@ -62,6 +62,12 @@ The skill resolves the checkout, installs local Python dependencies, starts the 
 
 This covers Tesla's five published Model Y template families as verified on 2026-10-01. Exact wheels, trim details and registration-year transitions can differ. Each family has its own mesh and template; its PNGs are not interchangeable with other families.
 
+## Body-aware Ravenclaw experiment
+
+A richer design compares multi-view concept-first, template-first and a hybrid with mesh-measured ornament placement. Open **http://127.0.0.1:5178/studies/ravenclaw/index.html** after starting the viewer, or read the [experiment and limits](public/studies/ravenclaw/README.md). The preferred original-body export is `raven-celestial-v3`. [Feature-aware workflow](docs/FEATURE-AWARE.md).
+
+![Richer Ravenclaw wrap mapped onto the actual original Model Y](public/studies/ravenclaw/review-C-v3/modely-raven-celestial-v3-front.png)
+
 ## Included examples
 
 - **Hogwarts Express:** burgundy, brass and owl heraldry. The original-body edition has the richer carriage/map atlas; newer-body editions use separately fitted emblem layouts.
@@ -71,7 +77,7 @@ This covers Tesla's five published Model Y template families as verified on 2026
 - **Hufflepuff:** gold and charcoal badger engraving.
 - **F1 silver** and **Alpine Expedition:** earlier studies for the original Model Y only.
 
-The first five designs have separate exports for all five Model Y families: **25 PNGs**, plus the two earlier original-body studies. Generated source artwork is in `examples/artwork/`; reproducible placement is in `scripts/build-examples.py`. Catalogue entries distinguish preview review from in-car verification. These are unofficial fan designs; none is claimed to have been verified inside a Tesla.
+The first five designs have separate exports for all five Model Y families: **25 PNGs**, plus the two earlier original-body studies. Four additional original-body exports preserve the richer Ravenclaw experiment and its iterations. Generated source artwork is in `examples/artwork/`; reproducible placement is in `scripts/build-examples.py`. Catalogue entries distinguish preview review from in-car verification. These are unofficial fan designs; none is claimed to have been verified inside a Tesla.
 
 ## Install a PNG on your Tesla
 

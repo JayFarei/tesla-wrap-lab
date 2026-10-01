@@ -1,0 +1,31 @@
+{
+  "model": "modely",
+  "uvChannel": 1,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "anchors": {
+    "rightFront": [
+      173,
+      492
+    ],
+    "rightRear": [
+      177,
+      712
+    ],
+    "leftFront": [
+      851,
+      492
+    ],
+    "leftRear": [
+      847,
+      712
+    ]
+  },
+  "method": "Nearest painted surface raycast at visually located handles. Screen probes retained in probes.json; approximate landmark centres, not CAD-defined hardware centres.",
+  "ornamentSize": [
+    38,
+    66
+  ]
+}

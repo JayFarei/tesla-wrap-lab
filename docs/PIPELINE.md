@@ -4,6 +4,8 @@
 
 Select one id from `public/models.json`. Confirm body generation and trim, not just year or Long Range. Fetch assets with `npm run setup:assets`. Open `public/templates/<id>.png` and inspect it. Treat every other Model Y template as a different target.
 
+For rich body-wide designs, use the [feature-aware workflow](FEATURE-AWARE.md): neutral mesh views, a coherent concept, measured surface landmarks and separately placed generated details.
+
 ## 2. Generate artwork, not a pretend preview
 
 Use the built-in imagegen tool. A concept car image can explore a theme, but it is not a wrap and cannot establish fit. Then generate either a flat atlas using the exact template as a reference or reusable detailed motif tiles for measured placement. Always save source PNGs and the full prompt. Name background/reference/template roles explicitly. Ask for a flat map, exact island positions, quiet seam margins and no overall scene lighting.

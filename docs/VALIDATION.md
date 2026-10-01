@@ -23,3 +23,7 @@ The skill bootstrap uses a lockfile fingerprint to reinstall dependencies when t
 The independent skill forward-test confirmed the model clarification and existing-example workflow. Its first test observations preceded the addition of the test files; the tests listed above were subsequently run and passed. The skill frontmatter validator passes using an isolated PyYAML environment.
 
 No example is in-car verified. Model-specific wheels and lighting remain approximate. Generated artwork is not a substitute for final on-vehicle inspection.
+
+## 0.2.0: body-aware design experiment
+
+Added four original-body Ravenclaw exports and a comparison page, bringing the catalogue to 31 PNGs across 11 designs. All four new exports have fresh five-angle capture records with validated PNG/screenshot hashes. The preferred hybrid was visually inspected in all five views; its imperfect seams are documented. The comparison page loads all five camera sets and has no horizontal overflow at 390/768/1440px. Browser tests also verify that mesh probing returns second-UV coordinates for paint, refuses glass/background and rejects out-of-range coordinates. See the [experiment](../public/studies/ravenclaw/README.md) for the distinction between manual landmark measurements and subjective visual assessment.

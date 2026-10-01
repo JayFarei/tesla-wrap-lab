@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-10-01T16:03:55.822Z",
+  "errors": [],
+  "records": [
+    {
+      "ready": true,
+      "model": "modely",
+      "wrap": "raven-template-v1",
+      "wrapMeshes": 9,
+      "width": 1024,
+      "bytes": 406011,
+      "uvChannel": 1,
+      "pngFile": "/wraps/modely/Raven_Template_v1.png",
+      "pngSha256": "45cb64c5082a4bba8dde32c95566685e0605f68b853d77b079a49e503cb64922",
+      "views": {
+        "front": {
+          "file": "modely-raven-template-v1-front.png",
+          "sha256": "7338bdc04cfc49b53d05d0fe7e26c1ac599d5d6d2c894264a781c20c0f34657c"
+        },
+        "rear": {
+          "file": "modely-raven-template-v1-rear.png",
+          "sha256": "66ad61d81d13e0b6c44c9d4e9cfff06b867c0a9030a3938a123e239980f13536"
+        },
+        "left": {
+          "file": "modely-raven-template-v1-left.png",
+          "sha256": "ed37eee781a75eeee34aee75cf3202bed2bd3757bb381a42a923099cf46cb161"
+        },
+        "right": {
+          "file": "modely-raven-template-v1-right.png",
+          "sha256": "bb5e24e72b997dd74597783694ae2ad5ae4643c03449ecfd05a0a42bd9dc29c6"
+        },
+        "top": {
+          "file": "modely-raven-template-v1-top.png",
+          "sha256": "0031fc7dbb153d1a4f86d28255ba6512857f453474a630d50c8de461ff54e8e2"
+        }
+      },
+      "visualReview": "pending",
+      "inCarVerified": false
+    }
+  ]
+}

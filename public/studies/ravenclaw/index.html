@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ravenclaw · Three ways to fit a wrap</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f3f1eb;
+        color: #152b36;
+        font:
+          16px/1.6 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 1300px;
+        margin: auto;
+        padding: 32px 20px;
+      }
+      h1 {
+        font-size: clamp(32px, 5vw, 58px);
+        line-height: 1.1;
+        max-width: 900px;
+      }
+      p {
+        max-width: 850px;
+      }
+      a {
+        color: #175b75;
+      }
+      nav {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      button,
+      .link {
+        padding: 12px 18px;
+        border: 1px solid #c4c9c4;
+        border-radius: 24px;
+        background: white;
+        color: #163244;
+        font: inherit;
+        cursor: pointer;
+      }
+      button[aria-pressed="true"],
+      .link {
+        background: #163244;
+        color: white;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin: 24px 0;
+      }
+      article {
+        background: white;
+        border-radius: 18px;
+        overflow: hidden;
+        padding-bottom: 20px;
+      }
+      article h2,
+      article p,
+      article a {
+        margin-left: 18px;
+        margin-right: 18px;
+      }
+      article h2 {
+        font-size: 21px;
+      }
+      img {
+        width: 100%;
+        display: block;
+      }
+      small {
+        color: #50616b;
+      }
+      .sources {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 24px 0;
+      }
+      td,
+      th {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid #ccd1cb;
+      }
+      details {
+        padding: 16px 0;
+      }
+      summary {
+        cursor: pointer;
+        font-weight: 600;
+      }
+      @media (max-width: 850px) {
+        .grid,
+        .sources {
+          grid-template-columns: 1fr;
+        }
+        main {
+          padding: 24px 14px;
+        }
+        table {
+          font-size: 14px;
+        }
+        td,
+        th {
+          padding: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/?model=modely&wrap=raven-celestial-v3"
+        >← Open the richer wrap in 3D</a
+      >
+      <p>RAVENCLAW / ORIGINAL MODEL Y / DESIGN EXPERIMENT</p>
+      <h1>Design for the body.<br />Then test the mapping.</h1>
+      <p>
+        One theme, three approaches. Every preview below is a real render of an
+        exported PNG on the same Model Y mesh. The AI concept is shown
+        separately. These are small design experiments, not a controlled
+        statistical benchmark.
+      </p>
+      <nav id="cameras" aria-label="Compare camera angle">
+        <button data-camera="front" aria-pressed="true">Front ¾</button
+        ><button data-camera="left" aria-pressed="false">Left</button
+        ><button data-camera="right" aria-pressed="false">Right</button
+        ><button data-camera="rear" aria-pressed="false">Rear ¾</button
+        ><button data-camera="top" aria-pressed="false">Top</button>
+      </nav>
+      <div class="grid">
+        <article>
+          <img id="a" alt="Concept-first wrap on the actual Model Y" />
+          <h2>A · Concept first</h2>
+          <p>
+            Multi-view car references → AI concept → decomposed UV atlas.
+            Stronger visual flow, but guessed handle placement.
+          </p>
+          <a href="/?model=modely&wrap=raven-concept-v1"
+            >Rotate A in the viewer ↗</a
+          >
+        </article>
+        <article>
+          <img id="b" alt="Template-first wrap on the actual Model Y" />
+          <h2>B · Template first</h2>
+          <p>
+            Exact template + labeled features + neutral car views → atlas
+            directly. Bold panels, weaker continuity across doors.
+          </p>
+          <a href="/?model=modely&wrap=raven-template-v1"
+            >Rotate B in the viewer ↗</a
+          >
+        </article>
+        <article>
+          <img id="c" alt="Hybrid wrap on the actual Model Y" />
+          <h2>C · Hybrid / preferred</h2>
+          <p>
+            Concept-first artwork → screenshot-guided corrections → separate
+            generated ornaments placed at measured mesh coordinates.
+          </p>
+          <a href="/?model=modely&wrap=raven-celestial-v3"
+            >Rotate C in the viewer ↗</a
+          >
+        </article>
+      </div>
+      <p>
+        <a class="link" href="/wraps/modely/Raven_Celestial_v3.png" download
+          >Download C · original Model Y PNG</a
+        >
+      </p>
+      <h2>What improved—and what did not</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Check</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Approx. mean handle-surround offset*</td>
+            <td>14 px</td>
+            <td>20 px</td>
+            <td>3 px</td>
+          </tr>
+          <tr>
+            <td>PNG size</td>
+            <td>424 KB</td>
+            <td>406 KB</td>
+            <td>412 KB</td>
+          </tr>
+          <tr>
+            <td>Artwork spanning doors</td>
+            <td>Coherent flow</td>
+            <td>More segmented</td>
+            <td>Coherent flow</td>
+          </tr>
+          <tr>
+            <td>Mirror / painted rail detail</td>
+            <td>Present</td>
+            <td>Present</td>
+            <td>Present</td>
+          </tr>
+          <tr>
+            <td>Perfect panel seams / in-car proof</td>
+            <td>No / no</td>
+            <td>No / no</td>
+            <td>No / no</td>
+          </tr>
+        </tbody>
+      </table>
+      <small
+        >*Manual centre annotations on the two handles in the same 994 × 740
+        left-side preview; roughly ±3 px reading uncertainty. This measures
+        local ornament placement, not overall design quality. See
+        <a href="measurement.json">measurements</a> and
+        <a href="alignment-check.png">annotated close-ups</a>. Glass and wheels
+        stay unchanged. Some dark seam bands, cropped details and mismatched
+        feather lines remain.</small
+      >
+      <details open>
+        <summary>See the source images and final texture</summary>
+        <div class="sources">
+          <div>
+            <h3>AI concept · not a real mapped preview</h3>
+            <a href="concept-A.png"
+              ><img src="concept-A.png" alt="AI multi-view design concept"
+            /></a>
+          </div>
+          <div>
+            <h3>C · actual 1024px exported texture</h3>
+            <a href="/wraps/modely/Raven_Celestial_v3.png"
+              ><img
+                src="/wraps/modely/Raven_Celestial_v3.png"
+                alt="Exact final texture used by the viewer"
+            /></a>
+          </div>
+        </div>
+      </details>
+      <p>
+        <a href="multi-view-reference.png">Neutral geometry references</a> ·
+        <a href="atlas-A-v1.png">A source atlas</a> ·
+        <a href="atlas-B-v1.png">B source atlas</a> ·
+        <a href="atlas-C-clean.png">C artwork before ornament placement</a> ·
+        <a href="README.md">Experiment notes</a>
+      </p>
+      <p>
+        Recommendation: use image generation for coherent artwork, and the
+        actual mesh for precise placement. Review the resulting PNG on the car
+        after every change. A convincing concept alone cannot establish fit.
+      </p>
+    </main>
+    <script>
+      const variants = {
+        a: ["review-A-v1", "raven-concept-v1"],
+        b: ["review-B-v1", "raven-template-v1"],
+        c: ["review-C-v3", "raven-celestial-v3"],
+      };
+      function view(camera) {
+        for (const [id, [folder, wrap]] of Object.entries(variants))
+          document.getElementById(id).src =
+            `${folder}/modely-${wrap}-${camera}.png`;
+        document
+          .querySelectorAll("[data-camera]")
+          .forEach((b) =>
+            b.setAttribute("aria-pressed", String(b.dataset.camera === camera)),
+          );
+      }
+      document
+        .querySelectorAll("[data-camera]")
+        .forEach((b) => (b.onclick = () => view(b.dataset.camera)));
+      view("front");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "encoding": "indexed-256",
+  "model": "modely",
+  "templateSha256": "145e56ff1d9d3d5d3c3bac4ce1b331387858cb3ee7f17dce7d1de2100bf42a4b",
+  "sourceSha256": "115227be77fbf17e0d6b9a13de616af5cc04b00ca5979afccb5fd9b0b02dbb0a",
+  "sha256": "45cb64c5082a4bba8dde32c95566685e0605f68b853d77b079a49e503cb64922",
+  "bytes": 406011,
+  "inCarVerified": false,
+  "visualReview": "See public/studies/ravenclaw/README.md for inspected views and residual fit limits.",
+  "sourceFile": "atlas-B-v1.png"
+}

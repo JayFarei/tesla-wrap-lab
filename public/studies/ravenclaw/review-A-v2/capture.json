@@ -1,0 +1,41 @@
+{
+  "capturedAt": "2026-10-01T16:06:35.190Z",
+  "errors": [],
+  "records": [
+    {
+      "ready": true,
+      "model": "modely",
+      "wrap": "raven-concept-v2",
+      "wrapMeshes": 9,
+      "width": 1024,
+      "bytes": 414319,
+      "uvChannel": 1,
+      "pngFile": "/wraps/modely/Raven_Concept_v2.png",
+      "pngSha256": "eb61e2fc9a916f374324694f5efd30f3906daf7142319b7c188cde83fbbf2cc6",
+      "views": {
+        "front": {
+          "file": "modely-raven-concept-v2-front.png",
+          "sha256": "f7bc006bef8095f12af34073ff8c17da0e8e01d1299269d18edb858ef3eb07b9"
+        },
+        "rear": {
+          "file": "modely-raven-concept-v2-rear.png",
+          "sha256": "b569d87d10b6d2822bb6ed9232f4c53217187a495930bdd5a8757d9fd37dc313"
+        },
+        "left": {
+          "file": "modely-raven-concept-v2-left.png",
+          "sha256": "e825edbd52a53dc597fd45e9ff6c55e93b84ef0cbc5ac0bee0809b8e6af0d9ca"
+        },
+        "right": {
+          "file": "modely-raven-concept-v2-right.png",
+          "sha256": "2229bb9407157349b0390cfa67ccbffbcc3414ce967acc5b6df00f86a864b4cb"
+        },
+        "top": {
+          "file": "modely-raven-concept-v2-top.png",
+          "sha256": "2d72bd930004fc8f5e5cc8b621d1532096c262b5060622deb9f69e0e955173e4"
+        }
+      },
+      "visualReview": "pending",
+      "inCarVerified": false
+    }
+  ]
+}

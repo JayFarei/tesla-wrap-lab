@@ -1,0 +1,73 @@
+{
+  "method": "Manual screen-space centre annotations on fixed left-camera screenshots. Approximate \u00b13 pixels; diagnostic comparison, not CAD or statistical benchmark.",
+  "canvas": [
+    994,
+    740
+  ],
+  "referenceCentres": {
+    "front": [
+      493,
+      360
+    ],
+    "rear": [
+      298,
+      348
+    ]
+  },
+  "results": [
+    {
+      "approach": "A concept-first",
+      "ornamentCentres": {
+        "front": [
+          499,
+          374
+        ],
+        "rear": [
+          309,
+          356
+        ]
+      },
+      "offsetPixels": {
+        "front": 15.2,
+        "rear": 13.6
+      },
+      "meanOffsetPixels": 14.4
+    },
+    {
+      "approach": "B template-first",
+      "ornamentCentres": {
+        "front": [
+          518,
+          362
+        ],
+        "rear": [
+          312,
+          353
+        ]
+      },
+      "offsetPixels": {
+        "front": 25.1,
+        "rear": 14.9
+      },
+      "meanOffsetPixels": 20.0
+    },
+    {
+      "approach": "C hybrid",
+      "ornamentCentres": {
+        "front": [
+          495,
+          358
+        ],
+        "rear": [
+          302,
+          348
+        ]
+      },
+      "offsetPixels": {
+        "front": 2.8,
+        "rear": 4.0
+      },
+      "meanOffsetPixels": 3.4
+    }
+  ]
+}

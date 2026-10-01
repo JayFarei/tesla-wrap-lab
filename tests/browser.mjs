@@ -18,7 +18,11 @@ try {
   const page = await browser.newPage(),
     errors = [],
     external = [];
-  page.on("pageerror", (e) => errors.push(e.message));
+  page.setDefaultTimeout(30000);
+  page.on("pageerror", (e) => {
+    errors.push(e.message);
+    console.error(e.message);
+  });
   page.on("request", (r) => {
     if (
       /^https?:/.test(r.url()) &&
@@ -29,7 +33,11 @@ try {
   await page.goto(
     server.resolvedUrls.local[0] + "?model=modely&wrap=ravenclaw",
   );
-  await page.waitForFunction(() => window.studioState?.ready);
+  await page.waitForFunction(
+    () => window.studioState?.ready || window.studioState?.error,
+  );
+  assert.equal(await page.evaluate(() => window.studioState?.error), undefined);
+  console.log("Initial model ready");
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     assert.equal(
@@ -41,6 +49,21 @@ try {
   const original = await readFile(
     path.join(root, "public/wraps/modely/Ravenclaw.png"),
   );
+  await page.locator('[data-camera="left"]').click();
+  await page.waitForTimeout(450);
+  const probes = await page.evaluate(() => ({
+    door: window.studioProbe(0.56, 0.55),
+    glass: window.studioProbe(0.53, 0.39),
+    background: window.studioProbe(0.05, 0.05),
+    invalid: window.studioProbe(-1, 0.5),
+  }));
+  assert.equal(probes.door.paintable, true);
+  assert.ok(probes.door.pixel.every((v) => v >= 0 && v <= 1024));
+  assert.equal(probes.glass.paintable, false);
+  assert.equal(probes.glass.pixel, null);
+  assert.equal(probes.background, null);
+  assert.equal(probes.invalid, null);
+  console.log("Surface probe and layout checks passed");
   const downloadPromise = page.waitForEvent("download");
   await page.locator("#download").click();
   assert.deepEqual(
@@ -48,22 +71,18 @@ try {
     original,
     "download must preserve PNG bytes",
   );
-  await page
-    .locator("#upload")
-    .setInputFiles({
-      name: "bad.png",
-      mimeType: "image/png",
-      buffer: Buffer.from("not a PNG"),
-    });
+  await page.locator("#upload").setInputFiles({
+    name: "bad.png",
+    mimeType: "image/png",
+    buffer: Buffer.from("not a PNG"),
+  });
   await page.waitForFunction(() => window.studioState?.error);
   assert.equal(await page.locator("#download").isDisabled(), true);
-  await page
-    .locator("#upload")
-    .setInputFiles({
-      name: "My_Test.png",
-      mimeType: "image/png",
-      buffer: original,
-    });
+  await page.locator("#upload").setInputFiles({
+    name: "My_Test.png",
+    mimeType: "image/png",
+    buffer: original,
+  });
   await page.waitForFunction(
     () => window.studioState?.ready && window.studioState.wrap === "custom",
   );
@@ -85,10 +104,32 @@ try {
   );
   assert.ok((await page.evaluate(() => window.studioState)).wrapMeshes > 0);
   assert.equal(new URL(page.url()).searchParams.get("model"), "modely-l");
+  await page.goto(
+    server.resolvedUrls.local[0] + "studies/ravenclaw/index.html",
+  );
+  await page
+    .locator("h1")
+    .filter({ hasText: "Design for the body." })
+    .waitFor();
+  for (const view of ["front", "left", "right", "rear", "top"]) {
+    await page.locator(`[data-camera="${view}"]`).click();
+    await page.waitForFunction(() =>
+      Array.from(document.querySelectorAll(".grid img")).every(
+        (i) => i.complete && i.naturalWidth > 0,
+      ),
+    );
+  }
+  for (const width of [390, 768, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    assert.equal(
+      await page.evaluate(() => document.documentElement.scrollWidth),
+      width,
+    );
+  }
   assert.deepEqual(errors, []);
   assert.deepEqual(external, []);
   console.log(
-    "Passed: responsive widths, byte-exact downloads, invalid/valid upload recovery, custom deep-link reset, rapid model switch, local-only runtime, no browser exceptions.",
+    "Passed: responsive widths, byte-exact downloads, invalid/valid upload recovery, custom deep-link reset, rapid model switch, local-only runtime, comparison page cameras/layout, no browser exceptions.",
   );
 } finally {
   await browser?.close();

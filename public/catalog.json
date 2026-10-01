@@ -1,5 +1,19 @@
 [
   {
+    "id": "raven-celestial-v3",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "category": "Ravenclaw study \u00b7 original Model Y",
+    "color": "#17324c",
+    "description": "Rich celestial engraving with wings across the doors, hood astrolabe, feathered mirrors and painted roof rails. Compare approaches at /studies/ravenclaw/index.html.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Raven_Celestial_v3.png",
+        "filename": "Raven_Celestial_v3.png",
+        "status": "Mapped preview reviewed \u00b7 residual seam breaks \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
     "id": "gryffindor",
     "name": "Gryffindor",
     "category": "Hogwarts house \u00b7 fan design",
@@ -69,7 +83,7 @@
   },
   {
     "id": "ravenclaw",
-    "name": "Ravenclaw",
+    "name": "Ravenclaw \u00b7 crest study",
     "category": "Hogwarts house \u00b7 fan design",
     "color": "#172c50",
     "description": "Ravenclaw-inspired heraldry, generated engraving and restrained house-colour panel trim. Unofficial fan artwork.",
@@ -194,6 +208,48 @@
         "file": "/wraps/modely/Expedition_AI.png",
         "filename": "Expedition_AI.png",
         "status": "Generated candidate \u00b7 alignment and in-car appearance unverified."
+      }
+    }
+  },
+  {
+    "id": "raven-concept-v1",
+    "name": "Ravenclaw \u00b7 A concept-first",
+    "category": "Ravenclaw study \u00b7 original Model Y",
+    "color": "#17324c",
+    "description": "Rich celestial engraving with wings across the doors, hood astrolabe, feathered mirrors and painted roof rails. Compare approaches at /studies/ravenclaw/index.html.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Raven_Concept_v1.png",
+        "filename": "Raven_Concept_v1.png",
+        "status": "Mapped preview reviewed \u00b7 residual seam breaks \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "raven-template-v1",
+    "name": "Ravenclaw \u00b7 B template-first",
+    "category": "Ravenclaw study \u00b7 original Model Y",
+    "color": "#17324c",
+    "description": "Rich celestial engraving with wings across the doors, hood astrolabe, feathered mirrors and painted roof rails. Compare approaches at /studies/ravenclaw/index.html.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Raven_Template_v1.png",
+        "filename": "Raven_Template_v1.png",
+        "status": "Mapped preview reviewed \u00b7 residual seam breaks \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "raven-concept-v2",
+    "name": "Ravenclaw \u00b7 A refined",
+    "category": "Ravenclaw study \u00b7 original Model Y",
+    "color": "#17324c",
+    "description": "Rich celestial engraving with wings across the doors, hood astrolabe, feathered mirrors and painted roof rails. Compare approaches at /studies/ravenclaw/index.html.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Raven_Concept_v2.png",
+        "filename": "Raven_Concept_v2.png",
+        "status": "Mapped preview reviewed \u00b7 residual seam breaks \u00b7 not in-car verified."
       }
     }
   }

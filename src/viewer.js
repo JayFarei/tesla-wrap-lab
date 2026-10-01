@@ -163,6 +163,30 @@ export function createViewer(container) {
       if (o.isMesh) o.material.wireframe = value;
     });
   }
+  // Normalized canvas coordinates -> the mesh's actual second UV set.
+  // Non-paintable surfaces are reported, never silently sampled through glass.
+  function surfaceAt(x, y) {
+    if (
+      !root ||
+      !Number.isFinite(x) ||
+      !Number.isFinite(y) ||
+      x < 0 ||
+      x > 1 ||
+      y < 0 ||
+      y > 1
+    )
+      return null;
+    const ray = new THREE.Raycaster();
+    ray.setFromCamera(new THREE.Vector2(x * 2 - 1, 1 - y * 2), camera);
+    const hit = ray.intersectObject(root, true).find((h) => h.object.visible);
+    if (!hit) return null;
+    const paintable = hit.object.material === paint;
+    return {
+      mesh: hit.object.name,
+      paintable,
+      pixel: paintable && hit.uv1 ? [hit.uv1.x * 1024, hit.uv1.y * 1024] : null,
+    };
+  }
   renderer.setAnimationLoop(() => {
     controls.update();
     renderer.render(scene, camera);
@@ -172,6 +196,7 @@ export function createViewer(container) {
     setTexture,
     view,
     setWireframe,
+    surfaceAt,
     setRotate: (value) => {
       controls.autoRotate = value;
     },
