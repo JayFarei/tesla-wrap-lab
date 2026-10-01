@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely",
+  "templateSha256": "145e56ff1d9d3d5d3c3bac4ce1b331387858cb3ee7f17dce7d1de2100bf42a4b",
+  "sourceSha256": "9ea9630236ce2c747a3980893d17db5f263a1b3f37551b43aab21f8e614c3a4a",
+  "sha256": "e1484937af86ee98a9297cde21ff04cfc0fbae89d9902b2ba5790cc42ffd1aec",
+  "bytes": 856565,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "hogwarts-original-export.png"
+}

@@ -1,0 +1,56 @@
+{
+  "verifiedDate": "2026-10-01",
+  "teslaTemplateCommit": "86c7d31454caf0f20af6f6af105f577643f13bce",
+  "assets": [
+    {
+      "path": "public/models/ModelYLegacy.glb",
+      "url": "https://teslawrapgallery.com/tesla_3d_models/v2/ModelYLegacy.glb",
+      "sha256": "71f23878d557af2fa45a0aac9deda7bf47e89cdd1f429c2077cf7cdebe3f288e"
+    },
+    {
+      "path": "public/templates/modely.png",
+      "url": "https://raw.githubusercontent.com/teslamotors/custom-wraps/86c7d31454caf0f20af6f6af105f577643f13bce/modely/template.png",
+      "sha256": "145e56ff1d9d3d5d3c3bac4ce1b331387858cb3ee7f17dce7d1de2100bf42a4b"
+    },
+    {
+      "path": "public/models/YJuniperStandard.glb",
+      "url": "https://teslawrapgallery.com/tesla_3d_models/v2/YJuniperStandard.glb",
+      "sha256": "4635595213fc2fd030b9a1566e9804e4eaebd9e3bb7f21c45f11d4f738d0a712"
+    },
+    {
+      "path": "public/templates/modely-2025-base.png",
+      "url": "https://raw.githubusercontent.com/teslamotors/custom-wraps/86c7d31454caf0f20af6f6af105f577643f13bce/modely-2025-base/template.png",
+      "sha256": "df7e18b382306d3631be58ec313471bdc02e6183b7d4d1a1e33306fd345f373a"
+    },
+    {
+      "path": "public/models/YJuniperPremium.glb",
+      "url": "https://teslawrapgallery.com/tesla_3d_models/v2/YJuniperPremium.glb",
+      "sha256": "3e47fc26eabac5e1f1eb2e9e8cd0cbf3c20c4ca9a289f107f6b35690868b72e0"
+    },
+    {
+      "path": "public/templates/modely-2025-premium.png",
+      "url": "https://raw.githubusercontent.com/teslamotors/custom-wraps/86c7d31454caf0f20af6f6af105f577643f13bce/modely-2025-premium/template.png",
+      "sha256": "336a738ffa7b11eaa4909fcaacc6d9066b38f9a06feba1fddf9634554f27e3b5"
+    },
+    {
+      "path": "public/models/YJuniperPerf.glb",
+      "url": "https://teslawrapgallery.com/tesla_3d_models/v2/YJuniperPerf.glb",
+      "sha256": "b51bed295c0d75221bc915d7cfc6aa3745c842b8181fbb3aa95c1f8dfe663761"
+    },
+    {
+      "path": "public/templates/modely-2025-performance.png",
+      "url": "https://raw.githubusercontent.com/teslamotors/custom-wraps/86c7d31454caf0f20af6f6af105f577643f13bce/modely-2025-performance/template.png",
+      "sha256": "f55baf4fc9f097650c2a15754005e913365efde55695c424fb78f35c57ae8f0b"
+    },
+    {
+      "path": "public/models/YL_Uberhelix.glb",
+      "url": "https://teslawrapgallery.com/tesla_3d_models/v2/YL_Uberhelix.glb",
+      "sha256": "3a65418e23533e7e451bbc61744c0437512f9412c150bd865d47340f8dc41677"
+    },
+    {
+      "path": "public/templates/modely-l.png",
+      "url": "https://raw.githubusercontent.com/teslamotors/custom-wraps/86c7d31454caf0f20af6f6af105f577643f13bce/modely-l/template.png",
+      "sha256": "08d486b115da0b2df988e26e6260704150044dc1b96a319f2c432f79b09c6400"
+    }
+  ]
+}

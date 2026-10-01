@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely-2025-performance",
+  "templateSha256": "f55baf4fc9f097650c2a15754005e913365efde55695c424fb78f35c57ae8f0b",
+  "sourceSha256": "8ec4ed4f8842da6d3b02544fce5bd28b7736d2c559436deb46ea1c2bcaae3b86",
+  "sha256": "98937650d798d6178efc7ebc954f22f61132ff050e91f8c91be2f3df8d6b5339",
+  "bytes": 97804,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "slytherin-composed.png"
+}

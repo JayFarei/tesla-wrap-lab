@@ -1,0 +1,29 @@
+{
+  "name": "tesla-wrap-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local multi-model Tesla wrap viewer and Codex imagegen skill",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "setup:assets": "node scripts/setup-assets.mjs",
+    "install:skill": "python3 scripts/install-skill.py",
+    "test": "node --test tests/*.test.mjs",
+    "validate:examples": "python3 scripts/wrap.py validate-catalog",
+    "package": "python3 scripts/package-release.py",
+    "review": "node scripts/review.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "vite": "6.4.3"
+  }
+}

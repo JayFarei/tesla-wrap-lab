@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely-2025-base",
+  "templateSha256": "df7e18b382306d3631be58ec313471bdc02e6183b7d4d1a1e33306fd345f373a",
+  "sourceSha256": "edaaae3b002d7d15c4a2393e32b9f0ffd7001538c1781fff42ec3d9de6fddb8d",
+  "sha256": "16e451b429e26f8e332ce62290a541677cb3f614d4958066cc7589534ec1b8ce",
+  "bytes": 86360,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "ravenclaw-composed.png"
+}

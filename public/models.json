@@ -1,0 +1,62 @@
+[
+  {
+    "id": "modely",
+    "label": "Model Y · original (pre-2025)",
+    "short": "Original",
+    "mesh": "ModelYLegacy.glb",
+    "notes": "Original body, including Long Range. Preview uses Gemini wheels; exact year/trim equipment may differ.",
+    "hood": [361, 151, 663, 393],
+    "leftDoor": [32, 285, 200, 529],
+    "rightDoor": [825, 285, 994, 529],
+    "leftRear": [33, 543, 214, 746],
+    "rightRear": [817, 544, 993, 746]
+  },
+  {
+    "id": "modely-2025-base",
+    "label": "Model Y · 2025+ Standard",
+    "short": "Standard",
+    "mesh": "YJuniperStandard.glb",
+    "notes": "2025+ Standard template; choose by body/trim, not registration year alone.",
+    "hood": [376, 105, 644, 304],
+    "leftDoor": [156, 350, 291, 545],
+    "rightDoor": [737, 350, 871, 545],
+    "leftRear": [153, 562, 299, 725],
+    "rightRear": [734, 570, 874, 725]
+  },
+  {
+    "id": "modely-2025-premium",
+    "label": "Model Y · 2025+ Premium",
+    "short": "Premium",
+    "mesh": "YJuniperPremium.glb",
+    "notes": "2025+ Premium / Juniper template. Confirm the trim shown by Tesla.",
+    "hood": [376, 112, 645, 338],
+    "leftDoor": [106, 357, 240, 558],
+    "rightDoor": [778, 357, 919, 558],
+    "leftRear": [91, 586, 228, 759],
+    "rightRear": [788, 586, 931, 759]
+  },
+  {
+    "id": "modely-2025-performance",
+    "label": "Model Y · 2025+ Performance",
+    "short": "Performance",
+    "mesh": "YJuniperPerf.glb",
+    "notes": "2025+ Performance has a separate template and mesh.",
+    "hood": [376, 112, 645, 338],
+    "leftDoor": [106, 357, 240, 558],
+    "rightDoor": [778, 357, 919, 558],
+    "leftRear": [91, 586, 228, 759],
+    "rightRear": [788, 586, 931, 759]
+  },
+  {
+    "id": "modely-l",
+    "label": "Model Y L",
+    "short": "L",
+    "mesh": "YL_Uberhelix.glb",
+    "notes": "Long-wheelbase Model Y L; this is not the original Long Range.",
+    "hood": [375, 128, 651, 382],
+    "leftDoor": [31, 288, 184, 499],
+    "rightDoor": [845, 288, 997, 499],
+    "leftRear": [29, 528, 197, 704],
+    "rightRear": [846, 531, 998, 704]
+  }
+]

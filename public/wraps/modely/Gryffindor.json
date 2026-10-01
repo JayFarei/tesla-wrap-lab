@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely",
+  "templateSha256": "145e56ff1d9d3d5d3c3bac4ce1b331387858cb3ee7f17dce7d1de2100bf42a4b",
+  "sourceSha256": "29462bb29fbf558c81300338f50ab92cc059e42b9edc4ca1833f64ae9d14dce7",
+  "sha256": "dc8f85c71f12372f722070bf4b90d76dfc2b10e34dd7f0d7ba30ef58cd900c30",
+  "bytes": 121430,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "gryffindor-composed.png"
+}

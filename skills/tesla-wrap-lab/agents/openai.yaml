@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tesla Wrap Lab"
+  short_description: "Generate, fit and preview Model Y Paint Shop wraps"
+  default_prompt: "Use $tesla-wrap-lab to create a themed wrap for my Model Y, inspect it in the viewer, and prepare the Tesla-ready PNG."
+policy:
+  allow_implicit_invocation: true

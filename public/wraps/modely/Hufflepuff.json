@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely",
+  "templateSha256": "145e56ff1d9d3d5d3c3bac4ce1b331387858cb3ee7f17dce7d1de2100bf42a4b",
+  "sourceSha256": "32005d78e1aa615b7efc45e23a3c91064a9a1ec5c931db4a21f8d5ab3d47a381",
+  "sha256": "ee8491db2cd13f8741460471116047d3e8e814e4d4f87de1ca770ec264a00e4a",
+  "bytes": 126884,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "hufflepuff-composed.png"
+}

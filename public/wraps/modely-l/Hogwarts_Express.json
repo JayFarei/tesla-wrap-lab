@@ -1,0 +1,11 @@
+{
+  "encoding": "RGB",
+  "model": "modely-l",
+  "templateSha256": "08d486b115da0b2df988e26e6260704150044dc1b96a319f2c432f79b09c6400",
+  "sourceSha256": "9257a158265528efe416964b192642b0075ae9efe45b0789e43afeff0a100765",
+  "sha256": "e5daf17575d165223f3ac10c3726a3b8ddfc302bcb0e2011bb255e35c530213f",
+  "bytes": 145530,
+  "inCarVerified": false,
+  "visualReview": "Five-angle contact-sheet review on 2026-10-01; see examples/reviews/README.md for limitations.",
+  "sourceFile": "express-adapted.png"
+}

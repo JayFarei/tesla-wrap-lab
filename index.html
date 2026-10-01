@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <title>Tesla Wrap Lab</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">WRAP LAB</a><span>DESIGN · RENDER · REFINE</span
+      ><a href="#install">Install on your Tesla ↗</a>
+    </header>
+    <main>
+      <div class="intro">
+        <div>
+          <p class="eyebrow">A LITTLE MAGIC. YOUR MODEL Y.</p>
+          <h1>Make it your own.</h1>
+        </div>
+        <p>
+          Generated artwork. Real UV mapping.<br />A local studio for every
+          Model Y template.
+        </p>
+      </div>
+      <div class="workspace">
+        <section id="stage" aria-label="Wrap preview">
+          <nav aria-label="Preview mode">
+            <button data-view="studio" class="active" aria-pressed="true">
+              Studio</button
+            ><button data-view="display" aria-pressed="false">
+              Display study</button
+            ><button data-view="atlas" aria-pressed="false">Texture</button>
+          </nav>
+          <div id="displaybar">P <small>82% ▰ &nbsp; MODEL Y</small></div>
+          <div
+            id="viewer"
+            aria-label="3D car: drag to rotate, pinch or scroll to zoom"
+          ></div>
+          <img id="texture" alt="Selected wrap texture" />
+          <div id="status" role="status">Loading studio…</div>
+          <div class="viewtools">
+            <button data-camera="front">Front ¾</button
+            ><button data-camera="rear">Rear ¾</button
+            ><button data-camera="left">Left</button
+            ><button data-camera="right">Right</button
+            ><button data-camera="top">Top</button
+            ><button id="rotate" aria-pressed="false">Rotate</button
+            ><button id="wire" aria-pressed="false">Wireframe</button
+            ><button id="capture">Save view ↓</button>
+          </div>
+          <div class="hint">DRAG TO ROTATE · PINCH / SCROLL TO ZOOM</div>
+          <div id="dock">
+            Controls <span>20.0°</span><span>♫</span><span>20.0°</span>
+          </div>
+        </section>
+        <aside>
+          <label for="model">YOUR VEHICLE</label
+          ><select id="model" aria-label="Model Y version"></select>
+          <p id="modelnote" class="small"></p>
+          <a id="template" download>Download matching template ↗</a>
+          <hr />
+          <label>THE COLLECTION</label>
+          <div id="designs" aria-label="Wrap designs"></div>
+          <h2 id="designname">Choose a wrap</h2>
+          <p id="description" class="small"></p>
+          <p id="evidence" class="badge"></p>
+          <label class="upload"
+            >Load a PNG for this model<input
+              type="file"
+              id="upload"
+              accept="image/png"
+              disabled /></label
+          ><button class="primary" id="download" disabled>
+            Download wrap PNG ↓
+          </button>
+          <p id="fileinfo" class="small"></p>
+        </aside>
+      </div>
+      <div class="notes">
+        <p>
+          <b>Your file stays local.</b>The viewer reads chosen PNGs in your
+          browser. No upload, account or publishing service.
+        </p>
+        <p>
+          <b>Paint, not bodywork.</b>Wraps cannot add geometry, replace glass or
+          change wheels. The display study is illustrative; Tesla’s lighting can
+          differ.
+        </p>
+        <p>
+          <b>Ask Codex to make it.</b>Install the included
+          <code>tesla-wrap-lab</code> skill, name your exact Model Y and
+          describe a theme. Codex generates, maps, inspects and refines it.
+        </p>
+      </div>
+      <section id="install" class="instructions">
+        <p class="eyebrow">TAKE IT TO THE CAR</p>
+        <h2>From studio to Paint Shop.</h2>
+        <ol>
+          <li>
+            Select the exact Model Y version and download its PNG. Keep the
+            generated filename.
+          </li>
+          <li>
+            <strong>Tesla app v4.59.0+:</strong> Creations → Wrap → Upload.
+            Alternatively, copy the PNG to a folder named <code>Wraps</code> at
+            the root of a compatible USB drive.
+          </li>
+          <li>
+            <strong>In your Tesla:</strong> Toybox → Paint Shop → Wraps. Select
+            the design and inspect all sides.
+          </li>
+        </ol>
+        <p class="small">
+          PNG, 512–1024 square, no larger than 1 MB. USB: exFAT, FAT32/MS-DOS
+          FAT, ext3 or ext4; no map or firmware updates on the drive. Never
+          format a drive that contains files you need. If menus are absent,
+          check your vehicle/app support. Examples are unofficial fan designs,
+          not in-car certified.
+          <a href="https://github.com/teslamotors/custom-wraps"
+            >Tesla’s instructions ↗</a
+          >
+        </p>
+      </section>
+      <footer>
+        Independent open-source viewer · No affiliation with Tesla, Warner Bros.
+        or the referenced brands · See repository documentation for model
+        provenance and reuse limits.
+      </footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

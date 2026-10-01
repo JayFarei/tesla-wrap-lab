@@ -1,0 +1,400 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #263e33;
+  background: #f5f4ef;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 4%;
+  border-bottom: 1px solid #d8ddd4;
+}
+a {
+  color: inherit;
+}
+header a {
+  font-size: 12px;
+}
+.brand {
+  font-size: 19px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-decoration: none;
+}
+header span,
+.eyebrow,
+label {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.eyebrow {
+  color: inherit;
+}
+main {
+  max-width: 1600px;
+  margin: auto;
+  padding: 28px clamp(12px, 4vw, 64px);
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+h1 {
+  font-size: clamp(36px, 5vw, 65px);
+  font-weight: 400;
+  letter-spacing: -2px;
+  margin: 10px 0 30px;
+}
+p {
+  line-height: 1.6;
+  color: #68756c;
+}
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 310px;
+  gap: 22px;
+  align-items: start;
+}
+#stage {
+  position: sticky;
+  top: 16px;
+  height: clamp(520px, 74vh, 780px);
+  background: #e9ece6;
+  border-radius: 18px;
+  overflow: hidden;
+}
+#viewer {
+  position: absolute;
+  inset: 0;
+}
+canvas {
+  display: block;
+  touch-action: none;
+}
+nav {
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+button,
+.upload,
+select {
+  font: 12px Arial;
+  color: inherit;
+  border: 1px solid #bdc9bc;
+  background: #fafbf6;
+  border-radius: 22px;
+  padding: 10px 13px;
+  min-height: 44px;
+}
+button,
+select {
+  cursor: pointer;
+}
+button.active,
+button.primary {
+  background: #294737;
+  color: white;
+  border-color: #294737;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #b28238;
+  outline-offset: 3px;
+}
+#status {
+  position: absolute;
+  top: 73px;
+  left: 20px;
+  right: 20px;
+  font-size: 11px;
+  pointer-events: none;
+}
+#status.error {
+  color: #9c2922;
+  background: #fff8;
+  padding: 10px;
+}
+.viewtools {
+  position: absolute;
+  bottom: 38px;
+  left: 14px;
+  right: 14px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.viewtools button {
+  background: #fafbf6e8;
+}
+.viewtools button.active {
+  background: #294737;
+}
+.hint {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+aside {
+  padding: 22px;
+  background: white;
+  border: 1px solid #d9dfd4;
+  border-radius: 18px;
+  min-width: 0;
+}
+aside label {
+  display: block;
+  margin-bottom: 9px;
+}
+select {
+  width: 100%;
+  border-radius: 9px;
+}
+aside a {
+  font-size: 11px;
+}
+.small {
+  font-size: 12px;
+}
+.badge {
+  font-size: 11px;
+  background: #f1f2eb;
+  border-radius: 8px;
+  padding: 10px;
+  color: #687064;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #e1e5dd;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+.design {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+.design:before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 16px;
+  width: 9px;
+  height: 9px;
+  background: var(--swatch);
+  border-radius: 50%;
+  border: 1px solid #fff8;
+}
+.design span {
+  display: block;
+}
+.design small {
+  display: block;
+  margin-top: 4px;
+  opacity: 0.7;
+  font-size: 10px;
+}
+aside .primary {
+  width: 100%;
+  margin-top: 12px;
+}
+.upload {
+  display: block;
+  letter-spacing: 0 !important;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+.upload input {
+  display: block;
+  max-width: 100%;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  font-size: 12px;
+  margin: 24px 0;
+}
+.notes b {
+  display: block;
+  color: #294737;
+  margin-bottom: 8px;
+}
+.instructions {
+  max-width: 800px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #d9dfd4;
+  border-radius: 18px;
+}
+.instructions li {
+  padding: 7px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+code {
+  font-size: 0.95em;
+}
+footer {
+  font-size: 10px;
+  line-height: 1.7;
+  color: #778276;
+  border-top: 1px solid #d8ddd4;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+#texture {
+  display: none;
+  position: absolute;
+  inset: 100px 0 100px;
+  width: 100%;
+  height: calc(100% - 200px);
+  object-fit: contain;
+}
+.atlas #texture {
+  display: block;
+}
+.atlas #viewer,
+.atlas .viewtools,
+.atlas .hint {
+  visibility: hidden;
+}
+#displaybar,
+#dock {
+  display: none;
+}
+.display #displaybar {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 24px;
+  font-size: 30px;
+}
+.display #displaybar small {
+  font-size: 11px;
+  margin-left: 15px;
+}
+.display #status {
+  top: 123px;
+}
+.display #dock {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  background: #fafafa;
+  padding: 18px;
+}
+.display .viewtools {
+  bottom: 73px;
+}
+.display .hint {
+  display: none;
+}
+@media (max-width: 1100px) {
+  header span {
+    display: none;
+  }
+  .workspace {
+    grid-template-columns: minmax(0, 1fr) 280px;
+  }
+  aside {
+    padding: 18px;
+  }
+  .intro > p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  #stage {
+    position: relative;
+    top: 0;
+    height: clamp(460px, 68svh, 620px);
+  }
+  .intro > p {
+    display: none;
+  }
+  .notes {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  aside {
+    padding: 20px;
+  }
+  header {
+    padding: 20px 16px;
+    gap: 12px;
+  }
+  header a {
+    font-size: 11px;
+  }
+  .brand {
+    font-size: 16px;
+  }
+  h1 {
+    margin-bottom: 24px;
+  }
+  .instructions {
+    padding: 20px;
+  }
+}
+@media (max-width: 380px) {
+  nav button,
+  .viewtools button {
+    font-size: 11px;
+    padding: 9px 10px;
+  }
+  .hint {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 33px;
+  }
+  .brand {
+    letter-spacing: 2px;
+  }
+  header a {
+    font-size: 10px;
+  }
+}
