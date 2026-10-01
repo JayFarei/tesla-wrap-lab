@@ -1,0 +1,319 @@
+{
+  "encoding": "RGB",
+  "model": "modely-2025-base",
+  "templateSha256": "df7e18b382306d3631be58ec313471bdc02e6183b7d4d1a1e33306fd345f373a",
+  "sourceSha256": "50c0ee46b2dfe173a4e8d4f8dab11b6d2df08a69891d0ee3c0fdfcc1713cae1e",
+  "sha256": "ba4cc0cf01dc94717d6cb952b21df9de515309412bbdc4ff0c1fbab7272b5a7e",
+  "bytes": 668181,
+  "inCarVerified": false,
+  "visualReview": "Five-view contact-sheet review; see examples/artwork/rich-collection/README.md. Seam discontinuities remain.",
+  "sourceFile": "composed.png",
+  "composition": {
+    "method": "Semantic panel crops resampled to this exact model\u2019s template components",
+    "artworkSha256": "d5e536181994555e8d446c553d96cbc2eb34e24f25f6632ffd94c331f072ba48",
+    "artworkFile": "examples/artwork/rich-collection/hogwarts-v1.png",
+    "recipe": [
+      {
+        "part": "bumper",
+        "sourceCrop": [
+          245,
+          7,
+          780,
+          142
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          269,
+          6,
+          750,
+          96
+        ]
+      },
+      {
+        "part": "hood",
+        "sourceCrop": [
+          354,
+          135,
+          675,
+          394
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          376,
+          103,
+          645,
+          306
+        ]
+      },
+      {
+        "part": "wf",
+        "sourceCrop": [
+          14,
+          7,
+          250,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          157,
+          104,
+          331,
+          342
+        ]
+      },
+      {
+        "part": "ef",
+        "sourceCrop": [
+          774,
+          7,
+          1010,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          707,
+          106,
+          874,
+          343
+        ]
+      },
+      {
+        "part": "er",
+        "sourceCrop": [
+          667,
+          130,
+          697,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          608,
+          330,
+          653,
+          757
+        ]
+      },
+      {
+        "part": "wr",
+        "sourceCrop": [
+          323,
+          130,
+          355,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          372,
+          331,
+          419,
+          757
+        ]
+      },
+      {
+        "part": "wd",
+        "sourceCrop": [
+          1086,
+          0,
+          2172,
+          724
+        ],
+        "sourceSpace": "hogwarts-side-v2.png native pixels",
+        "targetBounds": [
+          154,
+          343,
+          298,
+          560
+        ],
+        "mirror": true,
+        "rotateDegreesCCW": 270
+      },
+      {
+        "part": "ed",
+        "sourceCrop": [
+          1086,
+          0,
+          2172,
+          724
+        ],
+        "sourceSpace": "hogwarts-side-v2.png native pixels",
+        "targetBounds": [
+          732,
+          349,
+          876,
+          567
+        ],
+        "mirror": false,
+        "rotateDegreesCCW": 90
+      },
+      {
+        "part": "em",
+        "sourceCrop": [
+          719,
+          396,
+          805,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          654,
+          367,
+          716,
+          401
+        ]
+      },
+      {
+        "part": "wm",
+        "sourceCrop": [
+          217,
+          396,
+          305,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          313,
+          368,
+          375,
+          402
+        ]
+      },
+      {
+        "part": "wb",
+        "sourceCrop": [
+          0,
+          0,
+          1086,
+          724
+        ],
+        "sourceSpace": "hogwarts-side-v2.png native pixels",
+        "targetBounds": [
+          151,
+          555,
+          309,
+          750
+        ],
+        "mirror": true,
+        "rotateDegreesCCW": 270
+      },
+      {
+        "part": "eb",
+        "sourceCrop": [
+          0,
+          0,
+          1086,
+          724
+        ],
+        "sourceSpace": "hogwarts-side-v2.png native pixels",
+        "targetBounds": [
+          721,
+          562,
+          878,
+          757
+        ],
+        "mirror": false,
+        "rotateDegreesCCW": 90
+      },
+      {
+        "part": "wq",
+        "sourceCrop": [
+          84,
+          789,
+          260,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          207,
+          747,
+          336,
+          899
+        ],
+        "mirror": true,
+        "rotateDegreesCCW": 270
+      },
+      {
+        "part": "eq",
+        "sourceCrop": [
+          774,
+          789,
+          940,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          691,
+          754,
+          820,
+          906
+        ],
+        "mirror": false,
+        "rotateDegreesCCW": 90
+      },
+      {
+        "part": "arch",
+        "sourceCrop": [
+          298,
+          638,
+          727,
+          820
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          336,
+          769,
+          693,
+          935
+        ]
+      },
+      {
+        "part": "wx",
+        "sourceCrop": [
+          240,
+          896,
+          420,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          139,
+          840,
+          257,
+          964
+        ]
+      },
+      {
+        "part": "ex",
+        "sourceCrop": [
+          600,
+          896,
+          779,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          767,
+          849,
+          884,
+          972
+        ]
+      },
+      {
+        "part": "hatchlow",
+        "sourceCrop": [
+          355,
+          799,
+          670,
+          937
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          407,
+          941,
+          622,
+          1018
+        ]
+      }
+    ],
+    "sideMuralSha256": "967a44fc841ee1410b55277abe319b92819516e451caf97b64c462da008083fb"
+  }
+}

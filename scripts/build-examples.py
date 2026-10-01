@@ -120,4 +120,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit("Legacy emblem composer archived. Use scripts/build-rich-collection.py for the current full-body collection.")

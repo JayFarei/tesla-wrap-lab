@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla Wrap Lab — Cars</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e9ece5}main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:1800px;margin:auto}a{display:block;line-height:0}a:focus-visible{outline:3px solid #264f66;outline-offset:-5px}img{display:block;width:100%;height:auto;aspect-ratio:5/3}h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}@media(max-width:700px){main{grid-template-columns:1fr}}
+</style>
+</head>
+<body><h1>Model Y wrap collection. Select a car to open its interactive viewer.</h1><main aria-label="Car previews"></main>
+<script type="module">
+const response = await fetch('./cars.json');
+if (!response.ok) throw new Error('Unable to load car gallery');
+const cars = await response.json();
+const requestedModel = new URLSearchParams(location.search).get('model');
+for (const car of cars.filter(c => !requestedModel || c.model === requestedModel)) {
+  const link = document.createElement('a');
+  link.href = `../?model=${encodeURIComponent(car.model)}&wrap=${encodeURIComponent(car.wrap)}`;
+  link.title = `${car.name} — ${car.model}`;
+  const image = document.createElement('img');
+  image.src = car.image;
+  image.alt = `${car.name} mapped onto ${car.model}; open the 3D viewer`;
+  image.loading = 'lazy'; image.width = 1000; image.height = 600;
+  link.append(image); document.querySelector('main').append(link);
+}
+</script></body></html>

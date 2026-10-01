@@ -1,0 +1,306 @@
+{
+  "encoding": "RGB",
+  "model": "modely-2025-base",
+  "templateSha256": "df7e18b382306d3631be58ec313471bdc02e6183b7d4d1a1e33306fd345f373a",
+  "sourceSha256": "76c8d30743076c6763f7d079e25f40da00d18c9cc3cfcf26d9bc95d7efa0418d",
+  "sha256": "c5ed1b3aaf03651e80af2f64010159c54e1088e85397471ade57fa3adbb4140b",
+  "bytes": 702145,
+  "inCarVerified": false,
+  "visualReview": "Five-view contact-sheet review; see examples/artwork/rich-collection/README.md. Seam discontinuities remain.",
+  "sourceFile": "composed.png",
+  "composition": {
+    "method": "Semantic panel crops resampled to this exact model\u2019s template components",
+    "artworkSha256": "8d4c946565b5b824b9e585a2af64f281ed6f1e50d7aaec09f776510b1e65e991",
+    "artworkFile": "examples/artwork/rich-collection/hufflepuff-v1.png",
+    "recipe": [
+      {
+        "part": "bumper",
+        "sourceCrop": [
+          245,
+          7,
+          780,
+          142
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          269,
+          6,
+          750,
+          96
+        ]
+      },
+      {
+        "part": "hood",
+        "sourceCrop": [
+          354,
+          135,
+          675,
+          394
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          376,
+          103,
+          645,
+          306
+        ]
+      },
+      {
+        "part": "wf",
+        "sourceCrop": [
+          14,
+          7,
+          250,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          157,
+          104,
+          331,
+          342
+        ]
+      },
+      {
+        "part": "ef",
+        "sourceCrop": [
+          774,
+          7,
+          1010,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          707,
+          106,
+          874,
+          343
+        ]
+      },
+      {
+        "part": "er",
+        "sourceCrop": [
+          667,
+          130,
+          697,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          608,
+          330,
+          653,
+          757
+        ]
+      },
+      {
+        "part": "wr",
+        "sourceCrop": [
+          323,
+          130,
+          355,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          372,
+          331,
+          419,
+          757
+        ]
+      },
+      {
+        "part": "wd",
+        "sourceCrop": [
+          20,
+          274,
+          203,
+          550
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          154,
+          343,
+          298,
+          560
+        ]
+      },
+      {
+        "part": "ed",
+        "sourceCrop": [
+          822,
+          274,
+          1007,
+          550
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          732,
+          349,
+          876,
+          567
+        ]
+      },
+      {
+        "part": "em",
+        "sourceCrop": [
+          719,
+          396,
+          805,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          654,
+          367,
+          716,
+          401
+        ]
+      },
+      {
+        "part": "wm",
+        "sourceCrop": [
+          217,
+          396,
+          305,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          313,
+          368,
+          375,
+          402
+        ]
+      },
+      {
+        "part": "wb",
+        "sourceCrop": [
+          20,
+          549,
+          224,
+          798
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          151,
+          555,
+          309,
+          750
+        ]
+      },
+      {
+        "part": "eb",
+        "sourceCrop": [
+          797,
+          549,
+          1006,
+          798
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          721,
+          562,
+          878,
+          757
+        ]
+      },
+      {
+        "part": "wq",
+        "sourceCrop": [
+          84,
+          789,
+          260,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          207,
+          747,
+          336,
+          899
+        ]
+      },
+      {
+        "part": "eq",
+        "sourceCrop": [
+          774,
+          789,
+          940,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          691,
+          754,
+          820,
+          906
+        ]
+      },
+      {
+        "part": "arch",
+        "sourceCrop": [
+          298,
+          638,
+          727,
+          820
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          336,
+          769,
+          693,
+          935
+        ]
+      },
+      {
+        "part": "wx",
+        "sourceCrop": [
+          240,
+          896,
+          420,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          139,
+          840,
+          257,
+          964
+        ]
+      },
+      {
+        "part": "ex",
+        "sourceCrop": [
+          600,
+          896,
+          779,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          767,
+          849,
+          884,
+          972
+        ]
+      },
+      {
+        "part": "hatchlow",
+        "sourceCrop": [
+          355,
+          799,
+          670,
+          937
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          407,
+          941,
+          622,
+          1018
+        ]
+      }
+    ]
+  }
+}

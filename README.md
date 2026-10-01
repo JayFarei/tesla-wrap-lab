@@ -4,11 +4,9 @@
 
 A local 3D viewer and installable Codex skill for image-generated digital wraps. It includes Hogwarts Express and four Hogwarts house-inspired examples, all five official Model Y template families, model-specific PNG export, and a screenshot-driven imagegen refinement workflow.
 
-![Desktop studio with an actual mapped Hogwarts wrap](docs/screenshots/studio.png)
+![Hogwarts Express on the actual Model Y](docs/screenshots/studio.png)
 
-| A collection of generated examples | Responsive phone view |
-|---|---|
-| ![House-inspired designs](docs/screenshots/collection.png) | ![Mobile viewer](docs/screenshots/mobile.png) |
+![The four house-inspired wraps on the actual Model Y](docs/screenshots/collection.png)
 
 These are **digital vehicle-display skins**, not physical vinyl production files. The viewer maps real PNGs onto a render mesh; it does not change body geometry, glass or wheels. It is an independent project, not affiliated with Tesla or the brands referenced in fan artwork.
 
@@ -26,7 +24,7 @@ npm run setup:assets
 npm run dev -- --port 5178
 ```
 
-Open the URL Vite prints, normally **http://127.0.0.1:5178**. Select your exact vehicle, choose a design, rotate the car, and download the matching PNG. **Save view** captures the current car for review. **Texture** shows the actual exported artwork. **Display study** is an illustrative screen layout, not Tesla software.
+Open the URL Vite prints, normally **http://127.0.0.1:5178**. A clean, car-only collection is at **http://127.0.0.1:5178/gallery/index.html**; click a car to open its matching model and wrap. Select your exact vehicle, choose a design, rotate the car, and download the matching PNG. **Save view** captures the current car for review. **Texture** shows the actual exported artwork. **Display study** is an illustrative screen layout, not Tesla software.
 
 The gallery and PNG downloads need no image-generation key. To create new artwork with Codex, use a Codex environment with the built-in imagegen tool. The skill does not add imagegen access to a client that lacks it.
 
@@ -66,18 +64,18 @@ This covers Tesla's five published Model Y template families as verified on 2026
 
 A richer design compares multi-view concept-first, template-first and a hybrid with mesh-measured ornament placement. Open **http://127.0.0.1:5178/studies/ravenclaw/index.html** after starting the viewer, or read the [experiment and limits](public/studies/ravenclaw/README.md). The preferred original-body export is `raven-celestial-v3`. [Feature-aware workflow](docs/FEATURE-AWARE.md).
 
-![Richer Ravenclaw wrap mapped onto the actual original Model Y](public/studies/ravenclaw/review-C-v3/modely-raven-celestial-v3-front.png)
+![Richer Ravenclaw wrap mapped onto the actual original Model Y](docs/screenshots/ravenclaw.png)
 
 ## Included examples
 
-- **Hogwarts Express:** burgundy, brass and owl heraldry. The original-body edition has the richer carriage/map atlas; newer-body editions use separately fitted emblem layouts.
+- **Hogwarts Express:** burgundy, brass and owl heraldry. Engraved locomotive door murals, steam, celestial charts and a station-clock rear treatment, fitted separately to each body.
 - **Gryffindor:** crimson and gold lion engraving.
 - **Slytherin:** emerald and silver serpent engraving.
 - **Ravenclaw:** blue and bronze eagle engraving.
 - **Hufflepuff:** gold and charcoal badger engraving.
 - **F1 silver** and **Alpine Expedition:** earlier studies for the original Model Y only.
 
-The first five designs have separate exports for all five Model Y families: **25 PNGs**, plus the two earlier original-body studies. Four additional original-body exports preserve the richer Ravenclaw experiment and its iterations. Generated source artwork is in `examples/artwork/`; reproducible placement is in `scripts/build-examples.py`. Catalogue entries distinguish preview review from in-car verification. These are unofficial fan designs; none is claimed to have been verified inside a Tesla.
+The first five designs have separate exports for all five Model Y families: **25 PNGs**, plus the two earlier original-body studies. Four additional original-body exports preserve the richer Ravenclaw experiment and its iterations. Generated source artwork is in `examples/artwork/`; reproducible full-body placement is in `scripts/build-rich-collection.py` (see [composition and review notes](examples/artwork/rich-collection/README.md)). Catalogue entries distinguish preview review from in-car verification. These are unofficial fan designs; none is claimed to have been verified inside a Tesla.
 
 ## Install a PNG on your Tesla
 

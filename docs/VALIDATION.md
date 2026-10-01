@@ -27,3 +27,9 @@ No example is in-car verified. Model-specific wheels and lighting remain approxi
 ## 0.2.0: body-aware design experiment
 
 Added four original-body Ravenclaw exports and a comparison page, bringing the catalogue to 31 PNGs across 11 designs. All four new exports have fresh five-angle capture records with validated PNG/screenshot hashes. The preferred hybrid was visually inspected in all five views; its imperfect seams are documented. The comparison page loads all five camera sets and has no horizontal overflow at 390/768/1440px. Browser tests also verify that mesh probing returns second-UV coordinates for paint, refuses glass/background and rejects out-of-range coordinates. See the [experiment](../public/studies/ravenclaw/README.md) for the distinction between manual landmark measurements and subjective visual assessment.
+
+## Rich collection and car-only presentation
+
+The 25 house/Express catalogue entries now point to separately composed rich full-body PNGs. The complete current catalogue was recaptured in five views: 31 exports, 155 UI-free WebGL images, zero reported browser errors. All 25 rich collection exports were visually inspected using five-angle contact sheets. The Express received a screenshot-guided imagegen correction for sideways door artwork; its corrected side mural is independently rotated into each body's door islands. Known seam and resolution limits are recorded in the artwork notes. Earlier validation sections describe historical passes, not the current artwork.
+
+The responsive car-only gallery links each of its 31 previews to the exact model/design. Browser coverage includes gallery image decoding, responsive widths, viewer links and raw PNG capture. The showcase generator validates raw capture hashes before cropping and padding images. Catalogue exports and screenshot evidence remain separate from in-car acceptance.

@@ -274,7 +274,7 @@
       function view(camera) {
         for (const [id, [folder, wrap]] of Object.entries(variants))
           document.getElementById(id).src =
-            `${folder}/modely-${wrap}-${camera}.png`;
+            `/gallery/cars/modely-${wrap}-${camera}.webp`;
         document
           .querySelectorAll("[data-camera]")
           .forEach((b) =>

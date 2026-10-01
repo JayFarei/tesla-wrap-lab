@@ -1,0 +1,188 @@
+[
+  {
+    "model": "modely",
+    "wrap": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "image": "cars/modely-hogwarts-front.webp"
+  },
+  {
+    "model": "modely-2025-base",
+    "wrap": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "image": "cars/modely-2025-base-hogwarts-front.webp"
+  },
+  {
+    "model": "modely-2025-premium",
+    "wrap": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "image": "cars/modely-2025-premium-hogwarts-front.webp"
+  },
+  {
+    "model": "modely-2025-performance",
+    "wrap": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "image": "cars/modely-2025-performance-hogwarts-front.webp"
+  },
+  {
+    "model": "modely-l",
+    "wrap": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "image": "cars/modely-l-hogwarts-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "image": "cars/modely-gryffindor-front.webp"
+  },
+  {
+    "model": "modely-2025-base",
+    "wrap": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "image": "cars/modely-2025-base-gryffindor-front.webp"
+  },
+  {
+    "model": "modely-2025-premium",
+    "wrap": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "image": "cars/modely-2025-premium-gryffindor-front.webp"
+  },
+  {
+    "model": "modely-2025-performance",
+    "wrap": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "image": "cars/modely-2025-performance-gryffindor-front.webp"
+  },
+  {
+    "model": "modely-l",
+    "wrap": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "image": "cars/modely-l-gryffindor-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "image": "cars/modely-slytherin-front.webp"
+  },
+  {
+    "model": "modely-2025-base",
+    "wrap": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "image": "cars/modely-2025-base-slytherin-front.webp"
+  },
+  {
+    "model": "modely-2025-premium",
+    "wrap": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "image": "cars/modely-2025-premium-slytherin-front.webp"
+  },
+  {
+    "model": "modely-2025-performance",
+    "wrap": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "image": "cars/modely-2025-performance-slytherin-front.webp"
+  },
+  {
+    "model": "modely-l",
+    "wrap": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "image": "cars/modely-l-slytherin-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-ravenclaw-front.webp"
+  },
+  {
+    "model": "modely-2025-base",
+    "wrap": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-2025-base-ravenclaw-front.webp"
+  },
+  {
+    "model": "modely-2025-premium",
+    "wrap": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-2025-premium-ravenclaw-front.webp"
+  },
+  {
+    "model": "modely-2025-performance",
+    "wrap": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-2025-performance-ravenclaw-front.webp"
+  },
+  {
+    "model": "modely-l",
+    "wrap": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-l-ravenclaw-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "image": "cars/modely-hufflepuff-front.webp"
+  },
+  {
+    "model": "modely-2025-base",
+    "wrap": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "image": "cars/modely-2025-base-hufflepuff-front.webp"
+  },
+  {
+    "model": "modely-2025-premium",
+    "wrap": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "image": "cars/modely-2025-premium-hufflepuff-front.webp"
+  },
+  {
+    "model": "modely-2025-performance",
+    "wrap": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "image": "cars/modely-2025-performance-hufflepuff-front.webp"
+  },
+  {
+    "model": "modely-l",
+    "wrap": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "image": "cars/modely-l-hufflepuff-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "raven-celestial-v3",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "image": "cars/modely-raven-celestial-v3-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "f1",
+    "name": "F1 silver",
+    "image": "cars/modely-f1-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "alpine",
+    "name": "Alpine Expedition",
+    "image": "cars/modely-alpine-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "raven-concept-v1",
+    "name": "Ravenclaw \u00b7 A concept-first",
+    "image": "cars/modely-raven-concept-v1-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "raven-template-v1",
+    "name": "Ravenclaw \u00b7 B template-first",
+    "image": "cars/modely-raven-template-v1-front.webp"
+  },
+  {
+    "model": "modely",
+    "wrap": "raven-concept-v2",
+    "name": "Ravenclaw \u00b7 A refined",
+    "image": "cars/modely-raven-concept-v2-front.webp"
+  }
+]

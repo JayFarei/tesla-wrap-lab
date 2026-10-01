@@ -47,7 +47,7 @@ try {
     );
   }
   const original = await readFile(
-    path.join(root, "public/wraps/modely/Ravenclaw.png"),
+    path.join(root, "public/wraps/modely/Ravenclaw_Rich.png"),
   );
   await page.locator('[data-camera="left"]').click();
   await page.waitForTimeout(450);
@@ -126,10 +126,26 @@ try {
       width,
     );
   }
+  await page.goto(server.resolvedUrls.local[0] + "gallery/index.html");
+  await page.waitForFunction(() => document.querySelectorAll("main img").length === 31);
+  await page.evaluate(async () => {
+    const images = Array.from(document.querySelectorAll("main img"));
+    images.forEach(i => i.loading = "eager");
+    await Promise.all(images.map(i => i.decode()));
+  });
+  for (const width of [320, 390, 768, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth), width);
+  }
+  await page.locator("main a").first().click();
+  await page.waitForFunction(() => window.studioState?.ready && window.studioState.wrap === "hogwarts");
+  const raw = await page.evaluate(() => window.studioCapture());
+  assert.ok(raw.startsWith("data:image/png;base64,"));
+  assert.ok(Buffer.from(raw.split(",")[1], "base64").length > 10000, "capture contains rendered content");
   assert.deepEqual(errors, []);
   assert.deepEqual(external, []);
   console.log(
-    "Passed: responsive widths, byte-exact downloads, invalid/valid upload recovery, custom deep-link reset, rapid model switch, local-only runtime, comparison page cameras/layout, no browser exceptions.",
+    "Passed: responsive widths, byte-exact downloads, invalid/valid upload recovery, custom deep-link reset, rapid model switch, local-only runtime, comparison page cameras/layout, car-only gallery images/layout/links, raw WebGL capture, no browser exceptions.",
   );
 } finally {
   await browser?.close();

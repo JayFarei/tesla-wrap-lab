@@ -78,9 +78,11 @@ try {
           ),
       );
       const filename = `${t.model}-${t.wrap}-${camera}.png`;
-      const bytes = await page
-        .locator("#viewer canvas")
-        .screenshot({ path: path.join(out, filename) });
+      // Read the WebGL pixels directly: DOM screenshots include overlaid controls.
+      const dataUrl = await page.evaluate(() => window.studioCapture());
+      if (!dataUrl?.startsWith("data:image/png;base64,")) throw new Error("Capture unavailable");
+      const bytes = Buffer.from(dataUrl.split(",")[1], "base64");
+      await writeFile(path.join(out, filename), bytes);
       views[camera] = {
         file: filename,
         sha256: createHash("sha256").update(bytes).digest("hex"),

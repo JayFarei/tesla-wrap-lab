@@ -1,0 +1,338 @@
+{
+  "encoding": "RGB",
+  "model": "modely-2025-premium",
+  "templateSha256": "336a738ffa7b11eaa4909fcaacc6d9066b38f9a06feba1fddf9634554f27e3b5",
+  "sourceSha256": "e6d7e0cff4f4e01a77b70e43541714e16e243de3cedb73f7edd0c6716bdadd5f",
+  "sha256": "f077fee39d7e68c50379eec2a1269949ae33925a321bf294a4acfd067aee3f80",
+  "bytes": 835320,
+  "inCarVerified": false,
+  "visualReview": "Five-view contact-sheet review; see examples/artwork/rich-collection/README.md. Seam discontinuities remain.",
+  "sourceFile": "composed.png",
+  "composition": {
+    "method": "Semantic panel crops resampled to this exact model\u2019s template components",
+    "artworkSha256": "8d4c946565b5b824b9e585a2af64f281ed6f1e50d7aaec09f776510b1e65e991",
+    "artworkFile": "examples/artwork/rich-collection/hufflepuff-v1.png",
+    "recipe": [
+      {
+        "part": "bumper",
+        "sourceCrop": [
+          245,
+          7,
+          780,
+          142
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          245,
+          9,
+          777,
+          118
+        ]
+      },
+      {
+        "part": "hood",
+        "sourceCrop": [
+          354,
+          135,
+          675,
+          394
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          376,
+          111,
+          645,
+          339
+        ]
+      },
+      {
+        "part": "wf",
+        "sourceCrop": [
+          14,
+          7,
+          250,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          111,
+          114,
+          331,
+          367
+        ]
+      },
+      {
+        "part": "ef",
+        "sourceCrop": [
+          774,
+          7,
+          1010,
+          272
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          694,
+          114,
+          912,
+          368
+        ]
+      },
+      {
+        "part": "wr",
+        "sourceCrop": [
+          323,
+          130,
+          355,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          342,
+          347,
+          388,
+          811
+        ]
+      },
+      {
+        "part": "wd",
+        "sourceCrop": [
+          20,
+          274,
+          203,
+          550
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          83,
+          348,
+          259,
+          595
+        ]
+      },
+      {
+        "part": "er",
+        "sourceCrop": [
+          667,
+          130,
+          697,
+          630
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          632,
+          348,
+          679,
+          812
+        ]
+      },
+      {
+        "part": "ed",
+        "sourceCrop": [
+          822,
+          274,
+          1007,
+          550
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          762,
+          350,
+          937,
+          596
+        ]
+      },
+      {
+        "part": "em",
+        "sourceCrop": [
+          719,
+          396,
+          805,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          680,
+          367,
+          749,
+          406
+        ]
+      },
+      {
+        "part": "wm",
+        "sourceCrop": [
+          217,
+          396,
+          305,
+          460
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          272,
+          368,
+          342,
+          407
+        ]
+      },
+      {
+        "part": "wb",
+        "sourceCrop": [
+          20,
+          549,
+          224,
+          798
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          69,
+          570,
+          235,
+          792
+        ]
+      },
+      {
+        "part": "eb",
+        "sourceCrop": [
+          797,
+          549,
+          1006,
+          798
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          784,
+          573,
+          950,
+          795
+        ]
+      },
+      {
+        "part": "wq",
+        "sourceCrop": [
+          84,
+          789,
+          260,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          124,
+          779,
+          264,
+          950
+        ]
+      },
+      {
+        "part": "eq",
+        "sourceCrop": [
+          774,
+          789,
+          940,
+          950
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          757,
+          783,
+          898,
+          953
+        ]
+      },
+      {
+        "part": "wa",
+        "sourceCrop": [
+          298,
+          638,
+          369,
+          779
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          302,
+          815,
+          356,
+          962
+        ]
+      },
+      {
+        "part": "ea",
+        "sourceCrop": [
+          657,
+          638,
+          727,
+          779
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          667,
+          816,
+          719,
+          964
+        ]
+      },
+      {
+        "part": "hatchbar",
+        "sourceCrop": [
+          341,
+          763,
+          686,
+          806
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          357,
+          874,
+          663,
+          929
+        ]
+      },
+      {
+        "part": "wx",
+        "sourceCrop": [
+          240,
+          896,
+          420,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          56,
+          885,
+          174,
+          1014
+        ]
+      },
+      {
+        "part": "ex",
+        "sourceCrop": [
+          600,
+          896,
+          779,
+          1014
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          854,
+          888,
+          968,
+          1016
+        ]
+      },
+      {
+        "part": "hatchlow",
+        "sourceCrop": [
+          355,
+          799,
+          670,
+          937
+        ],
+        "sourceSpace": "normalized 1024px atlas",
+        "targetBounds": [
+          396,
+          939,
+          630,
+          1014
+        ]
+      }
+    ]
+  }
+}

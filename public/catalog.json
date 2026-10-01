@@ -1,5 +1,175 @@
 [
   {
+    "id": "hogwarts",
+    "name": "Hogwarts Express \u00b7 Night journey",
+    "category": "Hogwarts collection \u00b7 full-body",
+    "color": "#641c25",
+    "description": "Detailed generated engraving composed separately for each body: hood, doors, fenders, mirrors, painted roof rails and rear pieces. Unofficial fan artwork; inspect final appearance in-car.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Hogwarts_Express_Rich.png",
+        "filename": "Hogwarts_Express_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-base": {
+        "file": "/wraps/modely-2025-base/Hogwarts_Express_Rich.png",
+        "filename": "Hogwarts_Express_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-premium": {
+        "file": "/wraps/modely-2025-premium/Hogwarts_Express_Rich.png",
+        "filename": "Hogwarts_Express_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-performance": {
+        "file": "/wraps/modely-2025-performance/Hogwarts_Express_Rich.png",
+        "filename": "Hogwarts_Express_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-l": {
+        "file": "/wraps/modely-l/Hogwarts_Express_Rich.png",
+        "filename": "Hogwarts_Express_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "gryffindor",
+    "name": "Gryffindor \u00b7 Golden mane",
+    "category": "Hogwarts collection \u00b7 full-body",
+    "color": "#641c25",
+    "description": "Detailed generated engraving composed separately for each body: hood, doors, fenders, mirrors, painted roof rails and rear pieces. Unofficial fan artwork; inspect final appearance in-car.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Gryffindor_Rich.png",
+        "filename": "Gryffindor_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-base": {
+        "file": "/wraps/modely-2025-base/Gryffindor_Rich.png",
+        "filename": "Gryffindor_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-premium": {
+        "file": "/wraps/modely-2025-premium/Gryffindor_Rich.png",
+        "filename": "Gryffindor_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-performance": {
+        "file": "/wraps/modely-2025-performance/Gryffindor_Rich.png",
+        "filename": "Gryffindor_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-l": {
+        "file": "/wraps/modely-l/Gryffindor_Rich.png",
+        "filename": "Gryffindor_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "slytherin",
+    "name": "Slytherin \u00b7 Silver serpent",
+    "category": "Hogwarts collection \u00b7 full-body",
+    "color": "#123d32",
+    "description": "Detailed generated engraving composed separately for each body: hood, doors, fenders, mirrors, painted roof rails and rear pieces. Unofficial fan artwork; inspect final appearance in-car.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Slytherin_Rich.png",
+        "filename": "Slytherin_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-base": {
+        "file": "/wraps/modely-2025-base/Slytherin_Rich.png",
+        "filename": "Slytherin_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-premium": {
+        "file": "/wraps/modely-2025-premium/Slytherin_Rich.png",
+        "filename": "Slytherin_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-performance": {
+        "file": "/wraps/modely-2025-performance/Slytherin_Rich.png",
+        "filename": "Slytherin_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-l": {
+        "file": "/wraps/modely-l/Slytherin_Rich.png",
+        "filename": "Slytherin_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "ravenclaw",
+    "name": "Ravenclaw \u00b7 Celestial atelier",
+    "category": "Hogwarts collection \u00b7 full-body",
+    "color": "#172c50",
+    "description": "Detailed generated engraving composed separately for each body: hood, doors, fenders, mirrors, painted roof rails and rear pieces. Unofficial fan artwork; inspect final appearance in-car.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Ravenclaw_Rich.png",
+        "filename": "Ravenclaw_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-base": {
+        "file": "/wraps/modely-2025-base/Ravenclaw_Rich.png",
+        "filename": "Ravenclaw_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-premium": {
+        "file": "/wraps/modely-2025-premium/Ravenclaw_Rich.png",
+        "filename": "Ravenclaw_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-performance": {
+        "file": "/wraps/modely-2025-performance/Ravenclaw_Rich.png",
+        "filename": "Ravenclaw_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-l": {
+        "file": "/wraps/modely-l/Ravenclaw_Rich.png",
+        "filename": "Ravenclaw_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
+    "id": "hufflepuff",
+    "name": "Hufflepuff \u00b7 Golden harvest",
+    "category": "Hogwarts collection \u00b7 full-body",
+    "color": "#a77c25",
+    "description": "Detailed generated engraving composed separately for each body: hood, doors, fenders, mirrors, painted roof rails and rear pieces. Unofficial fan artwork; inspect final appearance in-car.",
+    "models": {
+      "modely": {
+        "file": "/wraps/modely/Hufflepuff_Rich.png",
+        "filename": "Hufflepuff_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-base": {
+        "file": "/wraps/modely-2025-base/Hufflepuff_Rich.png",
+        "filename": "Hufflepuff_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-premium": {
+        "file": "/wraps/modely-2025-premium/Hufflepuff_Rich.png",
+        "filename": "Hufflepuff_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-2025-performance": {
+        "file": "/wraps/modely-2025-performance/Hufflepuff_Rich.png",
+        "filename": "Hufflepuff_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      },
+      "modely-l": {
+        "file": "/wraps/modely-l/Hufflepuff_Rich.png",
+        "filename": "Hufflepuff_Rich.png",
+        "status": "Five-view preview reviewed \u00b7 seam discontinuities remain \u00b7 not in-car verified."
+      }
+    }
+  },
+  {
     "id": "raven-celestial-v3",
     "name": "Ravenclaw \u00b7 Celestial atelier",
     "category": "Ravenclaw study \u00b7 original Model Y",
@@ -10,176 +180,6 @@
         "file": "/wraps/modely/Raven_Celestial_v3.png",
         "filename": "Raven_Celestial_v3.png",
         "status": "Mapped preview reviewed \u00b7 residual seam breaks \u00b7 not in-car verified."
-      }
-    }
-  },
-  {
-    "id": "gryffindor",
-    "name": "Gryffindor",
-    "category": "Hogwarts house \u00b7 fan design",
-    "color": "#641c25",
-    "description": "Gryffindor-inspired heraldry, generated engraving and restrained house-colour panel trim. Unofficial fan artwork.",
-    "models": {
-      "modely": {
-        "file": "/wraps/modely/Gryffindor.png",
-        "filename": "Gryffindor.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-base": {
-        "file": "/wraps/modely-2025-base/Gryffindor.png",
-        "filename": "Gryffindor.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-premium": {
-        "file": "/wraps/modely-2025-premium/Gryffindor.png",
-        "filename": "Gryffindor.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-performance": {
-        "file": "/wraps/modely-2025-performance/Gryffindor.png",
-        "filename": "Gryffindor.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-l": {
-        "file": "/wraps/modely-l/Gryffindor.png",
-        "filename": "Gryffindor.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      }
-    }
-  },
-  {
-    "id": "slytherin",
-    "name": "Slytherin",
-    "category": "Hogwarts house \u00b7 fan design",
-    "color": "#123d32",
-    "description": "Slytherin-inspired heraldry, generated engraving and restrained house-colour panel trim. Unofficial fan artwork.",
-    "models": {
-      "modely": {
-        "file": "/wraps/modely/Slytherin.png",
-        "filename": "Slytherin.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-base": {
-        "file": "/wraps/modely-2025-base/Slytherin.png",
-        "filename": "Slytherin.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-premium": {
-        "file": "/wraps/modely-2025-premium/Slytherin.png",
-        "filename": "Slytherin.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-performance": {
-        "file": "/wraps/modely-2025-performance/Slytherin.png",
-        "filename": "Slytherin.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-l": {
-        "file": "/wraps/modely-l/Slytherin.png",
-        "filename": "Slytherin.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      }
-    }
-  },
-  {
-    "id": "ravenclaw",
-    "name": "Ravenclaw \u00b7 crest study",
-    "category": "Hogwarts house \u00b7 fan design",
-    "color": "#172c50",
-    "description": "Ravenclaw-inspired heraldry, generated engraving and restrained house-colour panel trim. Unofficial fan artwork.",
-    "models": {
-      "modely": {
-        "file": "/wraps/modely/Ravenclaw.png",
-        "filename": "Ravenclaw.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-base": {
-        "file": "/wraps/modely-2025-base/Ravenclaw.png",
-        "filename": "Ravenclaw.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-premium": {
-        "file": "/wraps/modely-2025-premium/Ravenclaw.png",
-        "filename": "Ravenclaw.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-performance": {
-        "file": "/wraps/modely-2025-performance/Ravenclaw.png",
-        "filename": "Ravenclaw.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-l": {
-        "file": "/wraps/modely-l/Ravenclaw.png",
-        "filename": "Ravenclaw.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      }
-    }
-  },
-  {
-    "id": "hufflepuff",
-    "name": "Hufflepuff",
-    "category": "Hogwarts house \u00b7 fan design",
-    "color": "#a77c25",
-    "description": "Hufflepuff-inspired heraldry, generated engraving and restrained house-colour panel trim. Unofficial fan artwork.",
-    "models": {
-      "modely": {
-        "file": "/wraps/modely/Hufflepuff.png",
-        "filename": "Hufflepuff.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-base": {
-        "file": "/wraps/modely-2025-base/Hufflepuff.png",
-        "filename": "Hufflepuff.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-premium": {
-        "file": "/wraps/modely-2025-premium/Hufflepuff.png",
-        "filename": "Hufflepuff.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-performance": {
-        "file": "/wraps/modely-2025-performance/Hufflepuff.png",
-        "filename": "Hufflepuff.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-l": {
-        "file": "/wraps/modely-l/Hufflepuff.png",
-        "filename": "Hufflepuff.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      }
-    }
-  },
-  {
-    "id": "hogwarts",
-    "name": "Hogwarts Express",
-    "category": "Magical railway \u00b7 fan design",
-    "color": "#641c25",
-    "description": "Burgundy and brass with generated owl heraldry. Original-body edition has carriage and map details; newer-body editions use a separately fitted emblem layout.",
-    "models": {
-      "modely": {
-        "file": "/wraps/modely/Hogwarts_Express.png",
-        "filename": "Hogwarts_Express.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-base": {
-        "file": "/wraps/modely-2025-base/Hogwarts_Express.png",
-        "filename": "Hogwarts_Express.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-premium": {
-        "file": "/wraps/modely-2025-premium/Hogwarts_Express.png",
-        "filename": "Hogwarts_Express.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-2025-performance": {
-        "file": "/wraps/modely-2025-performance/Hogwarts_Express.png",
-        "filename": "Hogwarts_Express.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
-      },
-      "modely-l": {
-        "file": "/wraps/modely-l/Hogwarts_Express.png",
-        "filename": "Hogwarts_Express.png",
-        "status": "Five-angle preview reviewed \u00b7 in-car appearance unverified."
       }
     }
   },
